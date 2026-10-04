@@ -1,1 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
 
+/* Tall section styling */
+.tall-section {
+  background-color: #f8f8f8;
+  min-height: 1000px;
+  padding: 20px;
+}
+
+/* Navbar customizations */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav > li > a {
+  color: #333;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #ddd;
+}
