@@ -25,3 +25,17 @@ body {
 .navbar-nav > li > a:hover {
   background-color: #ddd;
 }
+
+/* Tablet-specific tweaks */
+@media (min-width: 768px) and (max-width: 991px) {
+  .tall-section {
+    background-color: #e8f0ff; /* light blue for tablet view */
+  }
+}
+
+/* Desktop-specific tweaks */
+@media (min-width: 992px) {
+  .tall-section {
+    background-color: #f0ffe8; /* light green for desktop view */
+  }
+}
