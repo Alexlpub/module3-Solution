@@ -1,41 +1,30 @@
-body {
-  font-family: Arial, sans-serif;
-}
-
-/* Tall section styling */
-.tall-section {
-  background-color: #f8f8f8;
-  min-height: 1000px;
-  padding: 20px;
-}
-
-/* Navbar customizations */
+/* Navbar */
 .navbar {
-  margin-bottom: 0;
+  background-color: #999999;
+  border-color: #888888;
 }
 
 .navbar-brand {
+  color: #111111;
   font-weight: bold;
 }
 
-.navbar-nav > li > a {
-  color: #333;
+/* Mobile dropdown: distinct background so it stands out from the content */
+.menu-list {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin: 0;
+  text-align: center;
 }
 
-.navbar-nav > li > a:hover {
-  background-color: #ddd;
+.menu-list > li > a {
+  color: #000000;
+  border-bottom: 1px solid #000000;
 }
 
-/* Tablet-specific tweaks */
-@media (min-width: 768px) and (max-width: 991px) {
-  .tall-section {
-    background-color: #e8f0ff; /* light blue for tablet view */
-  }
-}
-
-/* Desktop-specific tweaks */
-@media (min-width: 992px) {
-  .tall-section {
-    background-color: #f0ffe8; /* light green for desktop view */
-  }
+/* Tall section: must be tall enough to force scrolling */
+.tall-section {
+  background-color: #999999;
+  height: 1000px;
+  padding: 15px;
 }
